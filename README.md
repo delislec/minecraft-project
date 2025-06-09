@@ -22,9 +22,14 @@ This project fully automates the provisioning, configuration, and setup of a Min
   export AWS_SESSION_TOKEN=...
   export AWS_DEFAULT_REGION=us-east-1
   ```
+### Create SSH Keypair
+```bash
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/minecraft-key
+chmod 400 ~/.ssh/minecraft-key.pem
+```
 
 ## Pipeline Diagram
-![Pipeline Diagram](https://github.com/delislec/minecraft-automate/blob/main/Pipeline.png)
+![Pipeline Diagram](https://github.com/delislec/minecraft-project/blob/main/Pipeline.png)
 ---
 
 ## How to Run
