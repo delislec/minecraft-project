@@ -36,8 +36,8 @@ chmod 400 ~/.ssh/minecraft-key.pem
 
 ### 1. Clone the Project
 ```bash
-git clone https://github.com/delislec/minecraft-automate.git
-cd minecraft-automate
+git clone https://github.com/delislec/minecraft-project.git
+cd minecraft-project
 ```
 
 ### 2. Run the Setup Script
